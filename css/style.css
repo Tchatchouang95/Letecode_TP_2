@@ -82,11 +82,11 @@ section {
     padding-bottom: 10px;
 }
 
-.section.header2 {
+.section.header2, .section.header2-1 {
     background-color: #EEEEEE;
 }
 
-.section.header2 .container {
+.section.header2 .container, .section.header2-1 .container {
     display: flex;
     justify-content: center;
 
@@ -97,8 +97,36 @@ section {
     margin-right: 100px;
 }
 
+/*Footer*/
 footer {
     color: white;
     background-color: #0F2243;
     padding: 20px 0;
+}
+
+/*Page 2: Communauté*/
+.section.header2-1 img {
+    width: 340px;
+    margin-left: 100px;
+}
+
+.container.flex-container .img-legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container.flex-container img {
+    width: 150px;
+    margin: 35px;
+    border: 1px solid #EEEEEE;
+    border-radius: 80px;
+    margin-bottom: 2px;
+
+}
+
+.container.flex-container .name {
+    margin-left: 60px;
+    margin-top: 0px;
+
 }
