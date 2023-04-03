@@ -21,6 +21,10 @@ body {
      margin-bottom: 30px;
 }
 
+.marg-b-50{
+    margin-bottom: 50px;
+}
+
 .btn {
     background-color: #d72385;
     text-decoration: none;
@@ -30,8 +34,16 @@ body {
 }
 
 section {
-    padding: 30px 0;;
+    padding: 60px 0;;
 }
+
+/*Footer*/
+footer {
+    color: white;
+    background-color: #0F2243;
+    padding: 20px 0;
+}
+
 
 
 
@@ -82,7 +94,8 @@ section {
     padding-bottom: 10px;
 }
 
-.section.header2, .section.header2-1 {
+.section.header2, .section.header2-1,
+.section.news-letter {
     background-color: #EEEEEE;
 }
 
@@ -95,13 +108,6 @@ section {
 .section.header2 img {
     width: 340px;
     margin-right: 100px;
-}
-
-/*Footer*/
-footer {
-    color: white;
-    background-color: #0F2243;
-    padding: 20px 0;
 }
 
 /*Page 2: Communauté*/
@@ -130,3 +136,60 @@ footer {
     margin-top: 0px;
 
 }
+
+/*Page 3: contact*/
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #d8d8d8;
+}
+
+
+.form-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-items .col-form {
+    width: 440px;
+}
+
+.form-items .col-form input, textarea, select {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    background-color: #d72385;
+    text-decoration: none;
+    padding: 8px 50px;
+    color:white;
+    border-radius: 8px;
+    border: none;
+    width: 400px;
+}
+
+.section.news-letter .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.container .subscribe1{
+    width: 450px;
+}
+.container .subscribe2{
+    width: 400px;
+}
+
+/*Input placeholder Newsletter subscribe section*/
+input[type=email] {
+    margin-bottom: 20px;
+}
+
+
+
