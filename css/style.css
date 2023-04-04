@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    margin:0;
 }
 
 body {
@@ -44,14 +45,12 @@ footer {
     padding: 20px 0;
 }
 
-
-
-
 /*Independent Styling*/
 /*Navigation*/
 
 .navigation {
     background-color: #0F2243;
+    padding: 6px;
 }
 
 .navigation .container {
@@ -139,6 +138,10 @@ footer {
 
 /*Page 3: contact*/
 
+.section .container h2 {
+    margin: 30px 0 15px 0;
+}
+
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
@@ -146,7 +149,6 @@ input[type=text], input[type=email], select, textarea {
     border: 1px solid #ccc;
     background-color: #d8d8d8;
 }
-
 
 .form-items {
     display: flex;
@@ -179,9 +181,11 @@ input[type=submit] {
     justify-content: space-between;
     padding: 30px 0;
 }
+
 .container .subscribe1{
     width: 450px;
 }
+
 .container .subscribe2{
     width: 400px;
 }
@@ -191,5 +195,28 @@ input[type=email] {
     margin-bottom: 20px;
 }
 
+/*Page 4: Cours*/
 
+.container .flex-title {
+    margin: 30px 0 20px 0;
+}
+.container .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.container .flex-box .flex-items {
+    margin: 20px 0;
+}
+
+.container .flex-box .flex-items img {
+    width: 280px;
+    height: 200px;
+    margin-right:20px ;
+}
+
+.container .flex-box .flex-items h3 {
+    margin: 8px 0 3px 0;
+}
 
